@@ -1,5 +1,6 @@
 import React from 'react';
 import './App.css';
+import Box from '@mui/material/Box';
 
 function App() {
   return (
@@ -16,6 +17,9 @@ function App() {
         >
           Learn React
         </a>
+        <Box>
+          This is a material UI box
+        </Box>
       </header>
     </div>
   );
